@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top-container{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#top-container #logo{
+    margin-top: 5px;
+    margin-left: 40px;
+    height: 30px;
+    display:inline;
+}
+#card-items{
+    display: flex;
+    margin-right:50px;
+    cursor: pointer;
+}
+#card-items img{
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+#card-items h2{
+    font-size: 18px;
+   display: block;
+   margin: auto; 
+}
+
+#theme-img #theme{
+    height:67vh;
+    width: 100%;
+}
+#theme{
+    position: absolute;
+}
+#theme-txt{
+    position: relative;
+    /* display: block; */
+    display: inline-block;
+    margin:35px 55px;
+    font-size:25px;
+    color: white;
+}
+#theme-txt h3{
+    font-size: 22px;
+}
+/* .bluebox{
+    color: white;
+    background-color: blue;
+    display: flex;
+} */
+
+.add-card{
+    display:flex;
+    background-color: #6196FF;
+    height: 25px;
+    padding: 2px;
+    cursor:pointer;
+    border-radius: 3px;
+    margin-left: 30px;
+    
+}
+.add-txt{
+    color: white;
+}
+.cart{
+    padding: 2px;
+    background-color: #6196FF;
+    height: 20px;
+}
+.cash-card{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.author{
+    color: gray;
+}
+.book{
+    margin-right: 20px;
+}
+.book .new-book{
+    height: 220px;
+    /* border: 2px solid red; */
+}
+
+/* .first-book{
+    margin-top: -60px;
+    border: 2px solid red;
+} */
+.second-book{
+    margin-top: -35px;
+}
+.infos .one{
+    /* border: 2px solid red; */
+    margin-top: -90px;
+}
+#books{
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 15%; */
+    margin: 15% 200px 50px 200px;
+}
+.amount{
+    font-weight: bolder;
+}
+div #content-one{
+    border: 2px solid red;
+    /* display: inline; */
+    margin-top: 20%;
+    margin-left: 30px;
+}
+.book .infos{
+    /* margin-left: 3.6px; */
+    /* border: 2px solid red; */
+    margin-top: -28px;
+    font-size: 15px;
+}
+
+.infos{
+    margin-top: -20px;
+    position:relative;
+    font-size: 12px;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    height: 150px;
+    background-color: black;
+}
+#profile{
+    display: block;
+    margin:10px 40px;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#pro-info{
+    color: white;
+    margin: 10px 20px;
+}
+#footer-detail{
+    text-align: end;
+    margin-left: 830px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+@media (max-width:1110px){
+    #top-container{
+        width:100%;
+    }
+    #top-container #logo{
+        margin: auto 0;
+    }
+    #top-container span{
+        margin:auto 0;
+    }
+    #books{
+        display: flex;
+        flex-direction: column;
+        margin:20% auto;
+        padding: 40px;
+        text-align: center;
+    }
+    #books .book .new-book{
+        /* display: block; */
+        margin: auto;
+        height: 300px;
+
+    }
+    .book .cash-card{
+        margin-bottom: 15px;
+    }
+    #theme-img #theme-txt{
+        margin:auto 10px;
+        font-size: medium;
+    }
+    #theme-img #theme{
+        height:230px;
+
+    }
+    .book .infos .head-content{
+        /* border: 2px solid red; */
+        margin: auto;
+        font-size: xx-large;
+    }
+    .cash-card .amount{
+        font-size: 25px;
+    }
+    .add-card{
+        height: 40px;
+        width: 80px;
+    }
+    .add-card .add-txt,.cart{
+        margin: auto;
+    }
+    footer{
+        margin-bottom:0%;
+    }
+    footer #footer-detail{
+        color:white;
+        /* border: 2px solid red; */
+        font-size: 10px;
+        margin-left: auto;
+    }
+
+}
+
+
+
+
+
+
